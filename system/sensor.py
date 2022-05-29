@@ -52,7 +52,7 @@ def create_rnd_value():
 # sends one data set every MSG_DELAY seconds to the server
 def main():
     s = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)
-    s.accept((MAC, CHANNEL))
+    s.connect((MAC, CHANNEL))
     print('transmitting Data')
 
     while True:
