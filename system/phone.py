@@ -10,7 +10,7 @@ import datetime
 # Constants
 MAC = 'B8:27:EB:4D:B5:F0'
 CHANNEL = 3
-BACKLOG = 5
+BACKLOG = 1000
 SIZE = 1024
 
 #function to create a timestamp at the moment of function call
